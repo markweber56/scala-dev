@@ -27,6 +27,7 @@ object Ch6_Objects extends App {
     var savingsBalance = 0.0
     private var balance = 0.0
     def deposit(amount: Double) { balance += amount}
+    def checkBalance: Double = balance
   }
 
   object Account {
@@ -36,6 +37,9 @@ object Ch6_Objects extends App {
   // class and companion object can access each other's private features
 
   // APPLY METHOD
+  val marksAccount = new Account
+  marksAccount.deposit(37.5)
+  println(s"mark has ${marksAccount.checkBalance} in his account")
 
   // ENUMERATIONS
   object TrafficLightColor extends Enumeration {
