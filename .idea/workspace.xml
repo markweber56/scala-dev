@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="143eaf31-bd95-4868-8d72-ee7686e83bb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/Ch5_Classes.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/JsonExtract.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala-at-light-speed-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala-at-light-speed-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala-at-light-speed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala-at-light-speed.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/Ch12_Higher_Order_Functions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/Ch12_Higher_Order_Functions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/Ch2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/Ch2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/Ch6_Objects.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/Ch6_Objects.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/Ch8_Inheritance.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rockthejvm/Ch8_Inheritance.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +77,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/projects/synapse_writer/level1-sw-cvd" />
+    <property name="last_opened_file_path" value="$USER_HOME$/projects/rpu/global-search-api/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.14084506" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Ch2">
+  <component name="RunManager" selected="Application.FunctionalProgramming">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -97,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.Ch1" />
+    <configuration name="Ch12_Higher_Order_Functions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.Ch12_Higher_Order_Functions" />
       <module name="scala-at-light-speed" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch11_Operators" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.Ch11_Operators" />
+    <configuration name="Ch13_Collections" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.Ch13_Collections" />
       <module name="scala-at-light-speed" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.Ch2" />
+    <configuration name="Ch14_PatterMatching_CaseClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.Ch14_PatterMatching_CaseClasses" />
       <module name="scala-at-light-speed" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch5" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.Ch5_Classes" />
+    <configuration name="FunctionalProgramming" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.FunctionalProgramming" />
       <module name="scala-at-light-speed" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ch6" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.Ch6_Objects" />
+    <configuration name="ch13_exercises" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.rockthejvm.ch13_exercises" />
       <module name="scala-at-light-speed" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ch2" />
-        <item itemvalue="Application.Ch1" />
-        <item itemvalue="Application.Ch11_Operators" />
-        <item itemvalue="Application.Ch5" />
-        <item itemvalue="Application.Ch6" />
+        <item itemvalue="Application.FunctionalProgramming" />
+        <item itemvalue="Application.Ch14_PatterMatching_CaseClasses" />
+        <item itemvalue="Application.ch13_exercises" />
+        <item itemvalue="Application.Ch13_Collections" />
+        <item itemvalue="Application.Ch12_Higher_Order_Functions" />
       </list>
     </recent_temporary>
   </component>

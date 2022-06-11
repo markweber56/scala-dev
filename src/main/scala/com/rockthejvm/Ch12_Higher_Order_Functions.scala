@@ -24,13 +24,17 @@ object Ch12_Higher_Order_Functions extends App{
   // valueAtOneQuarter is a higher order function because it takes a function as a param
 
   // higher order functions can also produce functions
-  def mulBy(factor: Double) = (x: Double) => factor * x
+  def mulBy(factor: Double): Double => Double = (x: Double) => factor * x
   val quintuple = mulBy(5)
   println(quintuple(5))
+  println(s"5 quintuple: ${quintuple(5)}")
 
   val trippled = valueAtOneQuarter(x => 3 * x)
   // same as
   val trippled2 = valueAtOneQuarter(3 * _)
+
+  val doubled = mulBy(2)
+  println(s"6 doubled: ${doubled(6)}")
 
   // examples
   (1 to 9).map("*" * _).foreach(println _)

@@ -72,11 +72,11 @@ object Ch8_Inheritance extends App {
   // can also have abstract fields
   abstract class Job {
     val id: Int
-    var jobType: String
+    val jobType: String
   }
 
   class Engineer(val id: Int) extends Job {
-    var jobType = "engineering"
+    val jobType = "engineering"
   }
 
   // CONSTRUCTION ORDER AND EARLY DEFINITIONS

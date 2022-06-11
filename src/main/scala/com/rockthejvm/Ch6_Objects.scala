@@ -55,4 +55,17 @@ object Ch6_Objects extends App {
 
   println(s"${TrafficLightColor(0)}")
   println(s"${TrafficLightColor.withName("Red")}")
+
+  // MORE ENUMERATIONS
+  object Fingers extends Enumeration {
+    type Finger = Value
+
+    val Thumb = Value(1, "Thumb Finger")
+    val Index = Value(2, "Pointer Finger")
+  }
+
+  assert(Fingers.Thumb == Fingers.withName("Thumb Finger"))
+  println(s"thumb: ${Fingers.Thumb.toString}")
+
+
 }

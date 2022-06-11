@@ -51,7 +51,8 @@ object Ch2 extends App {
 
   // when body of for loop starts with "yield", the loop constructs a collection of values, one
   // for each iteration
-  for (i <- 1 to 5) yield i % 3
+  val vect = for (i <- 1 to 5) yield i % 3
+  println(f"vector: $vect")
   // yields vector(1, 2, 0, 1, 2)
 
   // functions
